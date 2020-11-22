@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "ranium/fixerio-php-client": "master"
+        "ranium/fixerio-php-client": "dev-master"
     },
     "autoload": {
         "psr-4": {
