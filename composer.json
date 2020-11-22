@@ -9,6 +9,12 @@
             "email": "abbas@ranium.in"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:oleg-kriklivets/fixerio-php-client.git"
+        }
+    ],
     "require": {
         "oleg-kriklivets/fixerio-php-client": "1.*"
     },
