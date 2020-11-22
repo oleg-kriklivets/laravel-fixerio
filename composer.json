@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "oleg-kriklivets/fixerio-php-client": "1.*"
+        "ranium/fixerio-php-client": "master"
     },
     "autoload": {
         "psr-4": {
