@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19dcf1f4895f5d5eef2bf46900abeed2",
+    "content-hash": "cc2a719f8e73dfd59237df6696238568",
     "packages": [
         {
             "name": "guzzlehttp/command",
@@ -377,7 +377,7 @@
         },
         {
             "name": "oleg-kriklivets/fixerio-php-client",
-            "version": "1.0.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oleg-kriklivets/fixerio-php-client.git",
@@ -410,7 +410,7 @@
             ],
             "description": "A PHP client for fixer.io foreign exchange rates and currency conversion API.",
             "support": {
-                "source": "https://github.com/oleg-kriklivets/fixerio-php-client/tree/1.0.2"
+                "source": "https://github.com/oleg-kriklivets/fixerio-php-client/tree/2.0.0"
             },
             "time": "2020-12-14T11:09:29+00:00"
         },

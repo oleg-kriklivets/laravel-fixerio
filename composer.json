@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "oleg-kriklivets/fixerio-php-client": "1.0.2"
+        "oleg-kriklivets/fixerio-php-client": "2.0.0"
     },
     "autoload": {
         "psr-4": {
