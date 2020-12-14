@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf235f431b71d003dc1069e55f55253e",
+    "content-hash": "261f9ea9d96af6263e1cb173954cf061",
     "packages": [
         {
             "name": "guzzlehttp/command",
@@ -376,6 +376,45 @@
             "time": "2020-07-21T13:45:09+00:00"
         },
         {
+            "name": "oleg-kriklivets/fixerio-php-client",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oleg-kriklivets/fixerio-php-client.git",
+                "reference": "fe5000d472343030c8472422fa6dfcdd95a4a9c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oleg-kriklivets/fixerio-php-client/zipball/fe5000d472343030c8472422fa6dfcdd95a4a9c3",
+                "reference": "fe5000d472343030c8472422fa6dfcdd95a4a9c3",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.2.0",
+                "guzzlehttp/guzzle-services": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ranium\\Fixerio\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abbas Ali",
+                    "email": "abbas@ranium.in"
+                }
+            ],
+            "description": "A PHP client for fixer.io foreign exchange rates and currency conversion API.",
+            "support": {
+                "source": "https://github.com/oleg-kriklivets/fixerio-php-client/tree/1.0.2"
+            },
+            "time": "2020-12-14T11:09:29+00:00"
+        },
+        {
             "name": "psr/http-client",
             "version": "1.0.1",
             "source": {
@@ -515,45 +554,6 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "ranium/fixerio-php-client",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/oleg-kriklivets/fixerio-php-client.git",
-                "reference": "ade46dae2fbc02c0e512090e2c1f19b008499966"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oleg-kriklivets/fixerio-php-client/zipball/ade46dae2fbc02c0e512090e2c1f19b008499966",
-                "reference": "ade46dae2fbc02c0e512090e2c1f19b008499966",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.2.0",
-                "guzzlehttp/guzzle-services": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ranium\\Fixerio\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Abbas Ali",
-                    "email": "abbas@ranium.in"
-                }
-            ],
-            "description": "A PHP client for fixer.io foreign exchange rates and currency conversion API.",
-            "support": {
-                "source": "https://github.com/oleg-kriklivets/fixerio-php-client/tree/master"
-            },
-            "time": "2020-12-14T10:01:23+00:00"
-        },
-        {
             "name": "symfony/polyfill-php80",
             "version": "v1.20.0",
             "source": {
@@ -623,9 +623,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ranium/fixerio-php-client": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

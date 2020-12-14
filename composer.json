@@ -1,5 +1,5 @@
 {
-    "name": "ranium/laravel-fixerio",
+    "name": "oleg-kriklivets/laravel-fixerio",
     "description": "Laravel package/client for fixer.io api, a foreign exchange rates and currency conversion API.",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "ranium/fixerio-php-client": "dev-master"
+        "oleg-kriklivets/fixerio-php-client": "1.*"
     },
     "autoload": {
         "psr-4": {
